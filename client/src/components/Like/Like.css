@@ -1,0 +1,13 @@
+.image .hover-image .likes {
+    bottom: 30px;
+    left: 20px;
+    position: absolute;
+}
+
+.likes svg {
+    margin-right: 5px;
+}
+
+.likes.ilike{
+    color: red
+}

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2fee289-17e5-449c-b5c1-9d375c81e71e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="1z92BGpDSRcgGTCFiUrft4tBpHx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/client/node_modules/react-scripts" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/server/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/client/src/components/Like" />
+      <recent name="$PROJECT_DIR$/client/src/components" />
+      <recent name="$PROJECT_DIR$/server/lib/dal" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/components/Image" />
+      <recent name="$PROJECT_DIR$/client/src/components" />
+      <recent name="$PROJECT_DIR$/client/src" />
+      <recent name="$PROJECT_DIR$/server" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.Should render Gallery (1)">
+    <configuration name="Should render Gallery (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/client/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/client" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/client/src/components/Photo/Photo.test.js" />
+      <test-names>
+        <test-name value="Should render Gallery" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Should render Gallery" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/client/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/client" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/client/src/components/Gallery/Gallery.test.js" />
+      <test-names>
+        <test-name value="Should render Gallery" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="renders learn react link (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/client/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/client" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/client/src/components/Gallery/Gallery.test.js" />
+      <test-names>
+        <test-name value="renders learn react link" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Should render Gallery (1)" />
+        <item itemvalue="Jest.Should render Gallery" />
+        <item itemvalue="Jest.renders learn react link (1)" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.run" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2fee289-17e5-449c-b5c1-9d375c81e71e" name="Default Changelist" comment="" />
+      <created>1633545846898</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633545846898</updated>
+      <workItem from="1633545848267" duration="41450000" />
+      <workItem from="1633646776189" duration="5251000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/server/scripts/envDown.js.map" />
+        <option value="$PROJECT_DIR$/server/scripts/envUp.js" />
+        <option value="$PROJECT_DIR$/server/scripts/envUp.js.map" />
+        <option value="$PROJECT_DIR$/client/src/components/Gallery/GalleryInterface.js.map" />
+        <option value="$PROJECT_DIR$/client/src/components/Gallery/GalleryInterface.js" />
+        <option value="$PROJECT_DIR$/server/scripts/envDown.js" />
+        <option value="$PROJECT_DIR$/server/lib/utils/cacheLocal.js" />
+        <option value="$PROJECT_DIR$/server/lib/utils/cacheLocal.js.map" />
+        <option value="$PROJECT_DIR$/server/server.js.map" />
+        <option value="$PROJECT_DIR$/server/server.js" />
+        <option value="$PROJECT_DIR$/server/scripts/envUp.js.map" />
+        <option value="$PROJECT_DIR$/server/scripts/envUp.js" />
+        <option value="$PROJECT_DIR$/server/scripts/envDown.js.map" />
+        <option value="$PROJECT_DIR$/server/scripts/envDown.js" />
+        <option value="$PROJECT_DIR$/server/lib/utils/cacheLocal.js.map" />
+        <option value="$PROJECT_DIR$/server/lib/utils/cacheLocal.js" />
+        <option value="$PROJECT_DIR$/server/lib/middleware/validateRequest.js.map" />
+        <option value="$PROJECT_DIR$/server/lib/middleware/validateRequest.js" />
+        <option value="$PROJECT_DIR$/server/lib/routes/index.js.map" />
+        <option value="$PROJECT_DIR$/server/lib/routes/index.js" />
+        <option value="$PROJECT_DIR$/server/lib/logic/images.js.map" />
+        <option value="$PROJECT_DIR$/server/lib/logic/images.js" />
+        <option value="$PROJECT_DIR$/server/lib/dal/images.js.map" />
+        <option value="$PROJECT_DIR$/server/lib/dal/images.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="js.build_tools.npm">
+        <watch expression="err" language="TypeScript" />
+        <watch expression="result" language="TypeScript" />
+        <watch expression="imageCache.get('TEST')" language="TypeScript" />
+        <watch expression="server" language="JavaScript" />
+        <watch expression="server" language="JavaScript" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
