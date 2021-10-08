@@ -69,5 +69,4 @@ After adding a database I would consider to have periodical updates of the datab
 
 I could also add more tests to project
 
-
-
+I used awesomefont for the like, but usually I would rather to use private font svg. It will also reduce the vulnerabilties.
