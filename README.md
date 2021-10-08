@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# What is in the repo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The repo contains 2 main folder:
+- client: for all the client side
+- server: for all the backend side
 
-## Available Scripts
 
-In the project directory, you can run:
+# Requirement
 
-### `npm start`
+You will need nodeJS to run the server
+To install all the project you'll need npm
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Run the project
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+In order to install all the project and start it, run the command "npm run installandstart" from the root folder
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Client side
 
-### `npm run build`
+The client side contains a small app allowing to display gallery, you will find all the different components within the src/components folder
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The client side is using react with Typescript (tsx files)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Build the client`
 
-### `npm run eject`
+In order to build the client you can run npm run build command.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Server side
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The server side contains one route to receive the Images (GET /api/images)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The server side also forward the / route to the react App
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The server is using typescript
 
-## Learn More
+### `Start the server`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In order to start the server run the command npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### `Test server`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+In order to test the server side, use the command npm test
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Things I did
 
-### Making a Progressive Web App
+### `Server`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+I added cache on the request to the API in order to not flood the API and to avoid issues due to rate Limit.
+For that, I create a localCache using a singleton in the server side.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### `Client`
 
-### Deployment
+I added few basics tests on the components of the app. Used Flex in order to be responsive and to show the columns according to the screen size.
+I also added an Error component that is used in case of server Error.
+InfiniteScroll is also implemented to bring 15 items more.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+I chose to have one folder per component with tsx,css,assets and interfaces so we have all the needed things in the same folder and we have a kind of domains in the components folders.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What I would improve
+
+Currently using local storage for the likes so we can't really keep all the info. I would have change this to a db.
+
+After adding a database I would consider to have periodical updates of the database directly in a separated service so client request won't go to the API (doing this according to the period of changes of the image API).
+
+I could also add more tests to project
+
+
+
