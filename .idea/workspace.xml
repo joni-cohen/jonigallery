@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2fee289-17e5-449c-b5c1-9d375c81e71e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/lib/logic/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/lib/logic/images.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/lib/logic/images.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/server/lib/logic/images.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/lib/logic/images.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/lib/logic/images.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/lib/middleware/validateRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/lib/middleware/validateRequest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/lib/middleware/validateRequest.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/server/lib/middleware/validateRequest.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/lib/middleware/validateRequest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/lib/middleware/validateRequest.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/lib/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/lib/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/lib/routes/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/server/lib/routes/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/lib/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/lib/routes/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/tests/functional.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/tests/functional.js" afterDir="false" />
-    </list>
+    <list default="true" id="d2fee289-17e5-449c-b5c1-9d375c81e71e" name="Default Changelist" comment="ignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +55,7 @@
       <recent name="$PROJECT_DIR$/server" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.test">
+  <component name="RunManager" selected="npm.run">
     <configuration name="Should render Gallery (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -132,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.run" />
         <item itemvalue="npm.test" />
         <item itemvalue="Jest.Should render Gallery (1)" />
         <item itemvalue="Jest.Should render Gallery" />
         <item itemvalue="Jest.renders learn react link (1)" />
-        <item itemvalue="npm.run" />
       </list>
     </recent_temporary>
   </component>
@@ -151,38 +136,23 @@
       <workItem from="1633545848267" duration="41450000" />
       <workItem from="1633646776189" duration="5251000" />
       <workItem from="1633848407528" duration="960000" />
-      <workItem from="1633849413601" duration="1850000" />
+      <workItem from="1633849413601" duration="2179000" />
     </task>
+    <task id="LOCAL-00001" summary="ignore">
+      <created>1633851305745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633851305745</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/server/scripts/envDown.js.map" />
-        <option value="$PROJECT_DIR$/server/scripts/envUp.js" />
-        <option value="$PROJECT_DIR$/server/scripts/envUp.js.map" />
-        <option value="$PROJECT_DIR$/client/src/components/Gallery/GalleryInterface.js.map" />
-        <option value="$PROJECT_DIR$/client/src/components/Gallery/GalleryInterface.js" />
-        <option value="$PROJECT_DIR$/server/scripts/envDown.js" />
-        <option value="$PROJECT_DIR$/server/lib/utils/cacheLocal.js" />
-        <option value="$PROJECT_DIR$/server/lib/utils/cacheLocal.js.map" />
-        <option value="$PROJECT_DIR$/server/server.js.map" />
         <option value="$PROJECT_DIR$/server/server.js" />
-        <option value="$PROJECT_DIR$/server/scripts/envUp.js.map" />
-        <option value="$PROJECT_DIR$/server/scripts/envUp.js" />
-        <option value="$PROJECT_DIR$/server/scripts/envDown.js.map" />
-        <option value="$PROJECT_DIR$/server/scripts/envDown.js" />
-        <option value="$PROJECT_DIR$/server/lib/utils/cacheLocal.js.map" />
-        <option value="$PROJECT_DIR$/server/lib/utils/cacheLocal.js" />
-        <option value="$PROJECT_DIR$/server/lib/middleware/validateRequest.js.map" />
-        <option value="$PROJECT_DIR$/server/lib/middleware/validateRequest.js" />
-        <option value="$PROJECT_DIR$/server/lib/routes/index.js.map" />
-        <option value="$PROJECT_DIR$/server/lib/routes/index.js" />
-        <option value="$PROJECT_DIR$/server/lib/logic/images.js.map" />
-        <option value="$PROJECT_DIR$/server/lib/logic/images.js" />
-        <option value="$PROJECT_DIR$/server/lib/dal/images.js.map" />
-        <option value="$PROJECT_DIR$/server/lib/dal/images.js" />
       </list>
     </option>
   </component>
@@ -197,6 +167,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
