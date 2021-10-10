@@ -5,11 +5,11 @@ import {validateRequest} from "../middleware/validateRequest"
 const routes = Router();
 
 routes.get('/api/images/:start/:end' ,
-    validateRequest(Joi.object().keys({
+    validateRequest(Joi.object({
         start: Joi.number().required(),
-        end: Joi.number().required()
+        end: Joi.number().required().greater(Joi.ref('start'))
     }).required()),
-    async (req: Request<{start: string, end: string}, {},{}>, res: Response, next) => {
+    async (req: Request<{start: string, end: string}, {},{}>, res: Response) => {
     try {
         const result = await getImages(+req.params.start, +req.params.end);
         res.json(result);

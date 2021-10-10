@@ -41,6 +41,9 @@ mocha.suite('unit tests', () => {
             assert.equal(res.status, 404);
             res = await agent.get(`/api/images/0`)
             assert.equal(res.status, 404);
+            //End has to be greater than start
+            res = await agent.get(`/api/images/15/15`)
+            assert.equal(res.status, 400)
             res = await agent.get(`/api/images/0/30`)
             assert.equal(res.status, 200);
         });

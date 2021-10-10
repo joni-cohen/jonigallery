@@ -6,7 +6,7 @@ export function validateRequest(schema: Schema) {
         try {
             await schema.validateAsync(req.params);
         } catch (err) {
-            return res.send(err).status(400);
+            return res.status(400).send(err);
         }
         next();
     };

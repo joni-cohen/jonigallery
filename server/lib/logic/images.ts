@@ -4,7 +4,7 @@ import cacheLocal from "../utils/cacheLocal"
 export async function getImages(start: number, end: number) : Promise<{url:string,likes:number, description: string}[]>{
     let images:{url:string,likes:number, description: string}[] | undefined = cacheLocal.get('images');
 
-    if(images === undefined) {
+    if(!images) {
         images = await getImagesFromSource();
         cacheLocal.set('images',images);
     }
